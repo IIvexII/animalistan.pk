@@ -2134,11 +2134,25 @@ ul {
 
 
 .sub_header {
-  padding: 25px 0px;
+  padding: 10px 0px;
+}
+
+
+#logo img{
+  max-height: 300px;
+  max-width: 300px;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 576px) {
-  
+
+  #logo img{
+    position: absolute;
+    left: 50%;
+    top: -30%;
+    transform: translate(-50%, -50%);
+  }
 
   .sub_header #logo {
     text-align: center;
@@ -2146,7 +2160,12 @@ ul {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  
+  #logo img{
+    position: absolute;
+    left: 50%;
+    top: -30%;
+    transform: translate(-50%, -50%);
+  }
 
   .sub_header #logo {
     text-align: center;
@@ -2154,6 +2173,7 @@ ul {
 }
 
 @media (max-width: 576px) {
+  
   
 
   .sub_header .sub_header_social_icon {
@@ -2500,6 +2520,12 @@ ul {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   
+  #logo img{
+    position: absolute;
+    left: 50%;
+    top: -30%;
+    transform: translate(-50%, -50%);
+  }
 
   .banner_part {
     height: 650px;
@@ -2510,6 +2536,12 @@ ul {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   
+  #logo img{
+    position: absolute;
+    left: 50%;
+    top: -30%;
+    transform: translate(-50%, -50%);
+  }
 
   .banner_part {
     height: 700px;
